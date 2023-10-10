@@ -196,11 +196,11 @@ class MainActivity : SimpleActivity(), PhotoProcessor.MediaSavedListener, Camera
     }
 
     override fun onKeyDown(keyCode: Int, event: KeyEvent): Boolean {
-        return if (keyCode == KeyEvent.KEYCODE_CAMERA && !mIsHardwareShutterHandled) {
+        return if ((keyCode == KeyEvent.KEYCODE_CAMERA) && !mIsHardwareShutterHandled) {
             mIsHardwareShutterHandled = true
             shutterPressed()
             true
-        } else if (!mIsHardwareShutterHandled && config.volumeButtonsAsShutter && (keyCode == KeyEvent.KEYCODE_VOLUME_DOWN || keyCode == KeyEvent.KEYCODE_VOLUME_UP)) {
+        } else if (!mIsHardwareShutterHandled && config.volumeButtonsAsShutter && (keyCode == KeyEvent.KEYCODE_VOLUME_DOWN || keyCode == KeyEvent.KEYCODE_VOLUME_UP || keyCode == KeyEvent.KEYCODE_SPACE)) {
             mIsHardwareShutterHandled = true
             shutterPressed()
             true

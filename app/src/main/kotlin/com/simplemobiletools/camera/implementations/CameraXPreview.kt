@@ -10,6 +10,7 @@ import android.util.Rational
 import android.util.Size
 import android.view.*
 import android.view.GestureDetector.SimpleOnGestureListener
+import androidx.annotation.OptIn
 import androidx.camera.core.*
 import androidx.camera.core.ImageCapture.*
 import androidx.camera.lifecycle.ProcessCameraProvider
@@ -163,7 +164,8 @@ class CameraXPreview(
             MySize(selectedQuality.width, selectedQuality.height)
         }
 
-        listener.adjustPreviewView(resolution.requiresCentering())
+//        listener.adjustPreviewView(resolution.requiresCentering())
+        listener.adjustPreviewView(false)
 
         val isFullSize = resolution.isFullScreen
         previewView.scaleType = if (isFullSize) ScaleType.FILL_CENTER else ScaleType.FIT_CENTER
@@ -245,7 +247,7 @@ class CameraXPreview(
             .build()
     }
 
-    private fun getCaptureMode(): Int {
+    @OptIn(ExperimentalZeroShutterLag::class) private fun getCaptureMode(): Int {
         return when (config.captureMode) {
             CaptureMode.MINIMIZE_LATENCY -> CAPTURE_MODE_MINIMIZE_LATENCY
             CaptureMode.MAXIMIZE_QUALITY -> CAPTURE_MODE_MAXIMIZE_QUALITY
