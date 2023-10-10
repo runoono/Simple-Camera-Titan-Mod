@@ -5,6 +5,7 @@
     <string name="capture_mode">Mode capture</string>
     <string name="maximize_quality">Maximiser la qualité</string>
     <string name="minimize_latency">Minimiser la latence</string>
+    <string name="zero_shutter_delay">Zero Shutter Delay</string>
     <!-- Errors -->
     <string name="camera_unavailable">Objectif photo-vidéo indisponible</string>
     <string name="camera_open_error">Une erreur s\'est produite lors de l\'accès à l\'objectif photo-vidéo</string>

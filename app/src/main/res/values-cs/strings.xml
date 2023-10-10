@@ -50,6 +50,7 @@
     <string name="save_photo_video_location">Uložit polohu fotografie a videa</string>
     <string name="photo_compression_quality">Úroveň komprese fotografií</string>
     <string name="shutter">Spoušť</string>
+    <string name="zero_shutter_delay">Zero Shutter Delay</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

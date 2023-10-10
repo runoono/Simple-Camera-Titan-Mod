@@ -5,6 +5,7 @@
     <string name="capture_mode">拍攝模式</string>
     <string name="maximize_quality">極致畫質</string>
     <string name="minimize_latency">最短延遲</string>
+    <string name="zero_shutter_delay">Zero Shutter Delay</string>
     <!-- Errors -->
     <string name="camera_unavailable">相機無法使用</string>
     <string name="camera_open_error">開啟相機發生錯誤</string>

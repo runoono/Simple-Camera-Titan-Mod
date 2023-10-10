@@ -5,6 +5,7 @@
     <string name="capture_mode">Aufnahmemodus</string>
     <string name="maximize_quality">Qualität maximieren</string>
     <string name="minimize_latency">Latenz minimieren</string>
+    <string name="zero_shutter_delay">Zero Shutter Delay</string>
     <!-- Errors -->
     <string name="camera_unavailable">Kamera nicht verfügbar</string>
     <string name="camera_open_error">Beim Zugriff auf die Kamera ist ein Fehler aufgetreten</string>

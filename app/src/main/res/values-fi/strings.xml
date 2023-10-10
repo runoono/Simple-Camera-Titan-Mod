@@ -5,6 +5,7 @@
     <string name="capture_mode">Kaappaustila</string>
     <string name="maximize_quality">Paras mahdollinen laatu</string>
     <string name="minimize_latency">Paras mahdollinen nopeus</string>
+    <string name="zero_shutter_delay">Zero Shutter Delay</string>
     <!-- Errors -->
     <string name="camera_unavailable">Kamera ei ole käytettävissä</string>
     <string name="camera_open_error">Kameraa ei saatu käyttöön</string>

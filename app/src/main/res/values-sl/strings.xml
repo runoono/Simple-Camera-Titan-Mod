@@ -5,6 +5,7 @@
     <string name="capture_mode">Način slikanja</string>
     <string name="maximize_quality">Povečanje kakovosti</string>
     <string name="minimize_latency">Zmanjšanje zakasnitve</string>
+    <string name="zero_shutter_delay">Zero Shutter Delay</string>
     <!-- Errors -->
     <string name="camera_unavailable">Kamera ni na razpolago</string>
     <string name="camera_open_error">Prišlo je do napake pri dostopu do kamere</string>

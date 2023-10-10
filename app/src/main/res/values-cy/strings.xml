@@ -50,6 +50,7 @@
     <string name="save_photo_video_location">Save photo and video location</string>
     <string name="photo_compression_quality">Ansawdd cywasgiad lluniau</string>
     <string name="shutter">Caead</string>
+    <string name="zero_shutter_delay">Zero Shutter Delay</string>
     <!--
         Haven't found some strings? There's more at
         https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res

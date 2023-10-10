@@ -5,5 +5,6 @@ import com.simplemobiletools.camera.R
 
 enum class CaptureMode(@StringRes val stringResId: Int) {
     MINIMIZE_LATENCY(R.string.minimize_latency),
-    MAXIMIZE_QUALITY(R.string.maximize_quality)
+    MAXIMIZE_QUALITY(R.string.maximize_quality),
+    ZERO_SHUTTER_DELAY(R.string.zero_shutter_delay),
 }

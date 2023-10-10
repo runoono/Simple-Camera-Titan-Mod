@@ -5,6 +5,7 @@
     <string name="capture_mode">Modalità di cattura</string>
     <string name="maximize_quality">Massimizza la qualità</string>
     <string name="minimize_latency">Minimizza la latenza</string>
+    <string name="zero_shutter_delay">Zero Shutter Delay</string>
     <!-- Errors -->
     <string name="camera_unavailable">Fotocamera non disponibile</string>
     <string name="camera_open_error">Impossibile accedere alla telecamera</string>

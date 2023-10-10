@@ -251,6 +251,7 @@ class CameraXPreview(
         return when (config.captureMode) {
             CaptureMode.MINIMIZE_LATENCY -> CAPTURE_MODE_MINIMIZE_LATENCY
             CaptureMode.MAXIMIZE_QUALITY -> CAPTURE_MODE_MAXIMIZE_QUALITY
+            CaptureMode.ZERO_SHUTTER_DELAY -> CAPTURE_MODE_ZERO_SHUTTER_LAG
         }
     }
 
